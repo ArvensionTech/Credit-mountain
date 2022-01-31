@@ -22,3 +22,7 @@ GET:
 /api/v1/credit-card: //view cards under user
 /api/v1/credit-card/:id: //view specific cards under user
 /api/v1/credit-card/:childId: //view cards under child
+
+DELETE:
+/api/v1/child: delete child
+/api/v1/credit-card: delete credit card
